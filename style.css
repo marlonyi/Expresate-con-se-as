@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FC5C7D;
+}
+
+section {
+    padding: 100px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+section#inicio {
+    background: url('imagen-interactiva.jpg') no-repeat center center/cover;
+    color: black;
+    height: 100vh;
+    
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    
+}
+
+a {
+    display: inline-block;
+    background: #FC5C7D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background: #6A82FB;
+}
+
+footer {
+    background: #333;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    padding: 20px 0;
+    text-align: center;
+}
